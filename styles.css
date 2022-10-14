@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font: 'Montserrat', sans-serif;
+}
+
+li, a, button {
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: #edf0f1;
+text-decoration: none;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 10%;
+
+}
+
+body {
+background-image: url('BJK.jfif');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+font-family: Arial;
+text-align: center;
+}
+
+.hp {
+background-color: white;
+display: inline-block;
+padding: 60px;
+border-radius: 15px;
+border-style: ridge;
+border-color: black;
+padding-bottom: 30px;
+}
+a:visited , a:active{
+color: black;
+text-decoration: none;
+}
+
+.titel {
+font-size: 36px;
+}
+
+.knop {
+	background-color: black;
+}
+
+.logo {
+width: 40px;
+height: auto;
+cursor: pointer;
+}
+
+.navbalk {
+	list-style: none;
+}
+
+.navbalk li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.navbalk li a {
+	transition: all 0.3s ease 0s;
+	color: black;
+}
+
+.navbalk li a:hover {
+	color: #0088a9
+}
+
+button {
+	padding: 9px 25px;
+	background-color: rgba(0,136,169,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover {
+	background-color: rgba(0,136,169,0.8);
+}
+
+.intro {
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+.vodafonepark {
+	width: 300px;
+	float: right;
+	margin-left: 10px;
+	margin-top: 20px;
+	border-style: ridge;
+	border-color: black;
+}
+
+.OverMij {
+	background-color: white;
+	display: inline-block;
+	padding: 60px;
+	border-radius: 15px;
+	border-style: ridge;
+	border-color: black;
+	padding-bottom: 30px;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+.omtitel {
+	font-size: 36px;
+}
+
+.gp {
+	background-color: white;
+	display: inline-block;
+	padding: 60px;
+	border-radius: 15px;
+	border-style: ridge;
+	border-color: black;
+	padding-bottom: 30px;
+}
+
+.gptitel {
+	font-size: 36px;
+}
+
+.hptext {
+	float: left;
+	padding-left: 10px;
+	padding-top: 40px;
+}
+
+.omtext {
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
